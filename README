@@ -1,0 +1,12 @@
+The makefile and program is intended to run on Linux
+
+To compile the program, just run make.
+
+The entirity of the ray tracer is contained in raytracer.cpp, which relies on CImg.h
+If you want to run this on another system, just compile raytracer.cpp with the commands found here:
+http://cimg.eu/reference/group__cimg__overview.html
+
+You can then run the executable.
+
+Test.cpp is a test program to ensure the correctness of CImg. 
+It displays a 256 by 256 image with blue color increase on the x axis, and red color increasing on the y axis.
